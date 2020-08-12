@@ -12,7 +12,7 @@
 }
 
 /*Style code for the individual links within the top nav bar*/
-.topnav a {
+.navbar_tab {
   float: left;
   color: #bfd2d2;
   text-align: center;
@@ -22,13 +22,13 @@
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.navbar_tab hover {
   background-color: #5d737e;
   color: #ddd169 ;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.navbar_tab active {
   color:#ddd169;
   background-color: #5d737e;
 }
