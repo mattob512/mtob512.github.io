@@ -34,8 +34,13 @@
 }
 
 .icon {
-   font-size: 25px;
-   float: right;
-   padding: 10px;
-   color: white;
+  vertical-align:middle;
+  font-size:30px;
+  color: white;
+}
+
+.outer-icon {
+    display: inline-block;
+    float: right;
+    padding: 10px;
 }
