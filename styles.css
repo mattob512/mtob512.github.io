@@ -5,6 +5,10 @@
 .topnav {
   background-color: #150151;
   overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 /*Style code for the individual links within the top nav bar*/
