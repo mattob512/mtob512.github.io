@@ -1,13 +1,16 @@
+/* Using a color palette picked from coolors.co
+ https://coolors.co/5d737e-c0362c-150151-ddd169-bfd2d2 */
+
 /* Adding a navy blue background color to the top nav bar */
 .topnav {
-  background-color: #250680;
+  background-color: #150151;
   overflow: hidden;
 }
 
 /*Style code for the individual links within the top nav bar*/
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: #bfd2d2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -16,12 +19,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  color:#ddd169
+  background-color: #5d737e;
   color: white;
 }
