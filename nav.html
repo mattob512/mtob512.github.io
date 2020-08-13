@@ -21,11 +21,11 @@
     </div>
     <div class="outer-icon">
       <button id="toggleEmailButton"><i class="icon fas fa-envelope"></i></button>
-      <p id="emailAddress" style="display: none">mtimothyobrien@gmail.com</p>
+      <p class="contactText" id="emailAddress" style="display: none">mtimothyobrien@gmail.com</p>
     </div>
     <div class="outer-icon">
       <button id="togglePhoneNumberButton"><i class="icon fas fa-phone-square-alt"></i></button>
-      <p id="phoneNumber" style="display: none">978-210-8334</p>
+      <p class="contactText" id="phoneNumber" style="display: none">978-210-8334</p>
     </div>
 
   </div>
@@ -33,9 +33,21 @@
 
 <script>
   $('#toggleEmailButton').click(function() {
-    $('#emailAddress').toggle();
-});
-$('#togglePhoneNumberButton').click(function() {
-  $('#phoneNumber').toggle();
-});
+    toggleVisibility('#emailAddress');
+  });
+
+  $('#togglePhoneNumberButton').click(function() {
+    toggleVisibility('#phoneNumber');
+  });
+
+function toggleVisibility(id)
+{
+  var ele = document.getElementById(id);
+    if (ele.style.display === "none" ) {
+      ele.style.display = "inline-block";
+    }
+    else {
+      ele.style.display = "none";
+    }
+}
 </script>
