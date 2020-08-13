@@ -4,10 +4,10 @@
 /* Adding a navy blue background color to the top nav bar */
 .topnav {
   background-color: #150151;
-  overflow: hidden;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
+  height: 5vh;
   width: 100%;
 }
 
@@ -62,10 +62,10 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
-  color: #fff;
+  background-color: #5d737e;
+  color: #bfd2d2;
   text-align: center;
-  padding: 5px 0;
+  padding: 8px 0;
   border-radius: 6px;
   position: absolute;
   width: 120px;
