@@ -20,14 +20,22 @@
       </a>
     </div>
     <div class="outer-icon">
-      <i class="icon fab fa-envelope" onclick="CopyEmailToClipboard()"></i>
+      <button id="toggleEmailButton"><i class="icon fas fa-envelope"></i></button>
+      <p id="emailAddress" style="display: none">mtimothyobrien@gmail.com</p>
     </div>
+    <div class="outer-icon">
+      <button id="togglePhoneNumberButton"><i class="icon fas fa-phone-square-alt"></i></button>
+      <p id="phoneNumber" style="display: none">978-210-8334</p>
+    </div>
+
   </div>
 </body>
 
 <script>
-  var emailAddress = "mtimothyobrien@gmail.com";
-  emailAddress.select();
-  document.execCommand("copy");
-  alert("Email address copied to clipboard!");
+  $('#toggleEmailButton').click(function() {
+    $('#emailAddress').toggle();
+});
+$('#togglePhoneNumberButton').click(function() {
+  $('#phoneNumber').toggle();
+});
 </script>
