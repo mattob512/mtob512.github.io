@@ -9,7 +9,6 @@
     <a class="navbar_tab" href="experience.html" data-toggle="tab">Experience</a>
     <a class="navbar_tab" href="education.html" data-toggle="tab">Education</a>
     <a class="navbar_tab" href="projects.html" data-toggle="tab">Projects</a>
-    <a class="navbar_tab" href="contact.html" data-toggle="tab">Contact</a>
     <div class="outer-icon">
       <a href="https://www.linkedin.com/in/mattobrien512/">
         <i class="icon fab fa-linkedin"></i>
@@ -20,5 +19,15 @@
         <i class="icon fab fa-github-square"></i>
       </a>
     </div>
+    <div class="outer-icon">
+      <i class="icon fab fa-envelope" onclick="CopyEmailToClipboard()"></i>
+    </div>
   </div>
 </body>
+
+<script>
+  var emailAddress = "mtimothyobrien@gmail.com";
+  emailAddress.select();
+  document.execCommand("copy");
+  alert("Email address copied to clipboard!");
+</script>
