@@ -37,16 +37,13 @@
   vertical-align:middle;
   font-size:30px;
   color: white;
+  background-color: #150151;
 }
 
 .outer-icon {
     display: inline-block;
     float: right;
     padding: 10px;
-}
-
-.skills-table {
-  width: 100%;
 }
 
 .contactText {
