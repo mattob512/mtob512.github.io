@@ -1,4 +1,3 @@
-<script>
   function toggleVisibility(id)
   {
       var ele = document.getElementById(id);
@@ -9,4 +8,3 @@
         ele.style.display = "none";
       }
   }
-</script>
