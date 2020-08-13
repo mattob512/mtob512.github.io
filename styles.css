@@ -36,8 +36,12 @@
 .icon {
   vertical-align:middle;
   font-size:30px;
-  color: white;
+  color: #bfd2d2;
   background-color: #150151;
+}
+
+.icon hover {
+  cursor: pointer;
 }
 
 .outer-icon {
@@ -47,6 +51,6 @@
 }
 
 .contactText {
-  color: white;
+  color: #bfd2d2;
   padding-left: 10px;
 }
