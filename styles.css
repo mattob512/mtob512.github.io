@@ -1,7 +1,7 @@
 /* Using a color palette picked from coolors.co
  https://coolors.co/5d737e-c0362c-150151-ddd169-bfd2d2 */
 
-.body {
+body {
   background: url("content/Sunset.JPG");
   background-repeat: no-repeat;
   background-attachment: fixed;
