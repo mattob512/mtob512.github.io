@@ -98,7 +98,6 @@ body {
 .panel {
   height: 100%;
   width: 100%;
-  background-color: #5d737e;
 }
 
 .scroll-to {
@@ -107,16 +106,35 @@ body {
 }
 
 .about {
+  background-color: #5d737e;
 }
 
 .skills {
+  background-color: #5d737e;
 }
 
 .projects {
+  background-color: #5d737e;
 }
 
 .education {
+  background-color: #5d737e;
+}
+
+
+.education table {
+  width: 100%;
+}
+
+.education th {
+  vertical-align: top;
+  width: 50%;
+}
+
+.education img {
+  width: 100%
 }
 
 .experiance {
+  background-color: #5d737e;
 }
