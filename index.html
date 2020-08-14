@@ -9,9 +9,12 @@
   <body>
     <!--Navigation bar-->
       <div class="topnav">
-        <a class="navbar_tab active" href="index.html" data-toggle="tab"">Home</a>
-        <a class="navbar_tab" href="#about" data-toggle="tab">About</a>
-        <a class="navbar_tab" href="" data-toggle="tab">Projects</a>
+        <div class="navbar_tab active" onclick="scrollToDiv(home)" data-toggle="tab">Home</div>
+        <div class="navbar_tab" onclick="scrollToDiv(about)" data-toggle="tab">About</div>
+        <div class="navbar_tab" onclick="scrollToDiv(skills)" data-toggle="tab">Skills</div>
+        <div class="navbar_tab" onclick="scrollToDiv(projects)" data-toggle="tab">Projects</div>
+        <div class="navbar_tab" onclick="scrollToDiv(experiance)" data-toggle="tab">Experiance</div>
+        <div class="navbar_tab" onclick="scrollToDiv(education)" data-toggle="tab">Education</div>
         <div class="outer-icon">
           <a class="tooltip" href="https://www.linkedin.com/in/mattobrien512/">
             <i class="icon fab fa-linkedin"></i>
@@ -89,4 +92,11 @@
 
     </div>
     </body>
+
+    <script>
+      function scrollToDiv(element){
+        element = element.replace("link", "");
+        $('html,body').unbind().animate({scrollTop: $(element).offset().top-50},'slow');
+      };
+</script>
 </html>
