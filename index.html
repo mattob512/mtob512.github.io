@@ -2,18 +2,72 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://kit.fontawesome.com/6fb3aa4411.js" crossorigin="anonymous"></script>
+    <script src="/scripts/toggle-visibility.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <!--Navigation bar-->
-    <div id="nav-placeholder">
+      <div class="topnav">
+        <a class="navbar_tab active" href="index.html" data-toggle="tab"">Home</a>
+        <a class="navbar_tab" href="#about" data-toggle="tab">About</a>
+        <a class="navbar_tab" href="" data-toggle="tab">Projects</a>
+        <div class="outer-icon">
+          <a class="tooltip" href="https://www.linkedin.com/in/mattobrien512/">
+            <i class="icon fab fa-linkedin"></i>
+            <span class="tooltiptext">LinkedIn Profile</span>
+          </a>
+        </div>
+        <div class="outer-icon">
+          <a class="tooltip" href="https://github.com/mtob512">
+            <i class="icon fab fa-github-square"></i>
+            <span class="tooltiptext">GitHub Profile</span>
+          </a>
+        </div>
+        <div class="outer-icon">
+          <a class="tooltip" href="/content/MattOBrienResume" download>
+            <i class="icon fas fa-file-pdf"></i>
+            <span class="tooltiptext">Download Resume</span>
+          </a>
+        </div>
+        <div class="outer-icon">
+          <span id="toggleEmailButton" onclick="toggleVisibility('emailAddress')" class="tooltip">
+            <i class="icon fas fa-envelope"></i>
+            <span class="tooltiptext">Email Address</span>
+          </span>
+          <p class="contactText" id="emailAddress" style="display: none">mtimothyobrien@gmail.com</p>
+        </div>
+        <div class="outer-icon">
+          <span id="togglePhoneNumberButton" onclick="toggleVisibility('phoneNumber')" class="tooltip">
+            <i class="icon fas fa-phone-square-alt"></i>
+            <span class="tooltiptext">Phone Number</span>
+          </span>
+          <p class="contactText" id="phoneNumber" style="display: none">(978-210-8334)</p>
+        </div>
+      </div>
 
+    <!--About Me Header-->
+    <div id="#about">
+      <table>
+        <td>
+          <img src="/content/untitled.png">
+        </td>
+        <td>
+          <p>
+            This needs to populated with text about me matt holy moly guacamole
+            this is text and i wonder if it wraps randomly or not here's a little YEET
+            did it wrap? i hit enter after yeet
+          </p>
+        </td>
+      </table>
     </div>
+    <!--Skills Section-->
 
-  </body>
+    <!--Projects Section-->
 
-  <script>
-    $(function(){
-      $("#nav-placeholder").load("nav.html");
-    });
-  </script>
+    <!--Experiance Section-->
+
+    <!--Education Section-->
+
+    </body>
 </html>
