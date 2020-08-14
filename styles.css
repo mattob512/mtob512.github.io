@@ -72,6 +72,7 @@
   top: 100%;
   left: 50%;
   margin-left: -60px;
+  margin-top: 5px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
