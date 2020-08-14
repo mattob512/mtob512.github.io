@@ -1,6 +1,10 @@
 /* Using a color palette picked from coolors.co
  https://coolors.co/5d737e-c0362c-150151-ddd169-bfd2d2 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: url("content/Sunset.JPG");
   background-repeat: no-repeat;
@@ -93,6 +97,11 @@ body {
 
 .panel {
   height: 100%;
+  width: 100%;
+}
+
+.scroll-to {
+  height: 50px;
   width: 100%;
 }
 

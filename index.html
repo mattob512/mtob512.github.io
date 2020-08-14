@@ -9,12 +9,12 @@
   <body>
     <!--Navigation bar-->
       <div class="topnav">
-        <div class="navbar_tab active" onclick="scrollToDiv(home)" data-toggle="tab">Home</div>
-        <div class="navbar_tab" onclick="scrollToDiv(about)" data-toggle="tab">About</div>
-        <div class="navbar_tab" onclick="scrollToDiv(skills)" data-toggle="tab">Skills</div>
-        <div class="navbar_tab" onclick="scrollToDiv(projects)" data-toggle="tab">Projects</div>
-        <div class="navbar_tab" onclick="scrollToDiv(experiance)" data-toggle="tab">Experiance</div>
-        <div class="navbar_tab" onclick="scrollToDiv(education)" data-toggle="tab">Education</div>
+        <a class="navbar_tab active" href="#home" data-toggle="tab">Home</a>
+        <a class="navbar_tab" href="#about" data-toggle="tab">About</a>
+        <a class="navbar_tab" href="#skills" data-toggle="tab">Skills</a>
+        <a class="navbar_tab" href="#projects" data-toggle="tab">Projects</a>
+        <a class="navbar_tab" href="#experiance" data-toggle="tab">Experiance</a>
+        <a class="navbar_tab" href="#education" data-toggle="tab">Education</a>
         <div class="outer-icon">
           <a class="tooltip" href="https://www.linkedin.com/in/mattobrien512/">
             <i class="icon fab fa-linkedin"></i>
@@ -70,33 +70,30 @@
     <div class="half-panel">
     </div>
     <!--Skills Section-->
-    <div class="panel skills" id="skills">
+    <div class="scroll-to" id="skills"></div>
+    <div class="panel skills">
 
     </div>
     <div class="half-panel">
     </div>
+    <div class="scroll-to" id="projects"></div>
     <!--Projects Section-->
-    <div class="panel projects" id="projects">
+    <div class="panel projects">
 
     </div>
     <div class="half-panel">
     </div>
+    <div class="scroll-to" id="experience"></div>
     <!--Experiance Section-->
-    <div class="panel experiance" id="experiance">
+    <div class="panel experiance">
 
     </div>
     <div class="half-panel">
     </div>
+    <div class="scroll-to" id="education"></div>
     <!--Education Section-->
-    <div class="panel education" id="education">
+    <div class="panel education">
 
     </div>
     </body>
-
-    <script>
-      function scrollToDiv(element){
-        element = element.replace("link", "");
-        $('html,body').unbind().animate({scrollTop: $(element).offset().top-50},'slow');
-      };
-</script>
 </html>
