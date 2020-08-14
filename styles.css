@@ -98,6 +98,7 @@ body {
 .panel {
   height: 100%;
   width: 100%;
+  background-color: #5d737e;
 }
 
 .scroll-to {
@@ -106,21 +107,16 @@ body {
 }
 
 .about {
-  background-color: white;
 }
 
 .skills {
-  background-color: red;
 }
 
 .projects {
-  background-color: blue;
 }
 
 .education {
-  background-color: green;
 }
 
 .experiance {
-  background-color: yellow;
 }
