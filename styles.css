@@ -1,7 +1,13 @@
 /* Using a color palette picked from coolors.co
  https://coolors.co/5d737e-c0362c-150151-ddd169-bfd2d2 */
 
-/* Adding a navy blue background color to the top nav bar */
+.body {
+  background-image: url('\content\Sunset.JPG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .topnav {
   background-color: #150151;
   position: -webkit-sticky; /* Safari */
@@ -78,4 +84,9 @@
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+.home {
+  height: 100%;
+  width: 100%;
 }
