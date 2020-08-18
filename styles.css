@@ -157,6 +157,25 @@ body {
   background-color: #5d737e;
 }
 
-.inner-pannel {
-  
+.inner-panel {
+  background-color: #bfd2d2;
+  color:#150151;
+  margin: 5%;
+  border-top: #5d737e 40px solid;
+}
+
+.inner-panel h1 {
+  padding-left:5%
+}
+
+.inner-panel h2 {
+  padding-left:5%
+}
+
+.inner-panel h3 {
+  padding-left:5%
+}
+
+.inner-panel h4 {
+  padding-left:5%
 }
